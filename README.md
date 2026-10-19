@@ -6,7 +6,8 @@ Claude reads raid logs the way the method says; a connector alone brings only th
 ## Add it
 
 In Claude (claude.ai or Claude Desktop): **Customize → Plugins → Add → Add marketplace**, enter `Enf0/wipeboy-plugin`, then add
-the Wipeboy plugin and sign in with Warcraft Logs. Claude keeps it up to date.
+the Wipeboy plugin and sign in with Warcraft Logs. With **Sync automatically** on, Claude keeps it up to date; the
+marketplace's **Refresh** updates it at once.
 
 In Claude Code: `/plugin marketplace add Enf0/wipeboy-plugin`, then `/plugin install wipeboy@wipeboy`.
 
