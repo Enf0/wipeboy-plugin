@@ -1,11 +1,10 @@
 {
   "name": "wipeboy",
   "displayName": "Wipeboy",
-  "version": "577db2e3",
+  "version": "e18753ac",
   "description": "World of Warcraft raid analysis for The Dragonfell Tribe (Kazzak-EU): why a pull wiped, how a night went, how a player did, from Warcraft Logs, with the method for reading them.",
   "author": { "name": "Wipeboy", "url": "https://wipeboy.enfo.dev" },
   "homepage": "https://wipeboy.enfo.dev",
-  "icon": "./icon.png",
   "keywords": ["world-of-warcraft", "warcraft-logs", "raiding", "raid-analysis"],
   "mcpServers": {
     "Wipeboy": { "type": "http", "url": "https://wipeboy.enfo.dev/mcp" }
