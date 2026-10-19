@@ -1,0 +1,17 @@
+{
+  "name": "wipeboy",
+  "owner": {
+    "name": "Wipeboy",
+    "url": "https://wipeboy.enfo.dev"
+  },
+  "metadata": {
+    "description": "Wipeboy, World of Warcraft raid analysis for The Dragonfell Tribe (Kazzak-EU), as a Claude plugin."
+  },
+  "plugins": [
+    {
+      "name": "wipeboy",
+      "source": "./plugins/wipeboy",
+      "description": "World of Warcraft raid analysis for The Dragonfell Tribe (Kazzak-EU), from Warcraft Logs."
+    }
+  ]
+}
