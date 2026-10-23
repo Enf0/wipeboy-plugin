@@ -3,18 +3,7 @@
   "mcpServers": {
     "wipeboy": {
       "type": "streamable-http",
-      "url": "https://wipeboy.enfo.dev/mcp",
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "oauth",
-            "client": {
-              "mode": "dcr"
-            },
-            "registrationUrl": "https://wipeboy.enfo.dev/register"
-          }
-        }
-      }
+      "url": "https://wipeboy.enfo.dev/mcp"
     }
   }
 }
