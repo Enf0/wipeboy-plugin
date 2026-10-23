@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "wipeboy",
+  "version": "0.4.0+db3dd3a2",
+  "description": "World of Warcraft raid analysis for The Dragonfell Tribe (Kazzak-EU), from Warcraft Logs: why a pull wiped, how a night went, how a player did, with the method for reading them.",
+  "author": {
+    "name": "Wipeboy",
+    "url": "https://wipeboy.enfo.dev"
+  },
+  "homepage": "https://wipeboy.enfo.dev",
+  "keywords": [
+    "world-of-warcraft",
+    "warcraft-logs",
+    "raiding",
+    "raid-analysis"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Wipeboy",
+        "shortDescription": "World of Warcraft raid analysis for The Dragonfell Tribe (Kazzak-EU), from Warcraft Logs.",
+        "longDescription": "Ask why a pull wiped, how a raid night went, what keeps wiping the raid, or how a player did and why their damage or healing is low. The Wipeboy connector reads the reports from Warcraft Logs and computes every number in code; the raid-log-analysis skill says how to read them. Sign in with your Warcraft Logs account.",
+        "developerName": "Wipeboy",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://wipeboy.enfo.dev",
+        "privacyPolicyURL": "https://wipeboy.enfo.dev/privacy",
+        "defaultPrompt": [
+          "Why did we wipe on the last pull?",
+          "How did I do on this boss tonight?",
+          "How did tonight's raid go?"
+        ]
+      }
+    }
+  }
+}

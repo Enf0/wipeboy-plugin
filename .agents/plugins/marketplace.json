@@ -1,0 +1,20 @@
+{
+  "name": "wipeboy",
+  "interface": {
+    "displayName": "Wipeboy"
+  },
+  "plugins": [
+    {
+      "name": "wipeboy",
+      "source": {
+        "source": "local",
+        "path": "./plugins/wipeboy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
