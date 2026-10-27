@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "wipeboy",
-  "version": "0.11.1+70140bb9",
+  "version": "0.12.0+70140bb9",
   "description": "World of Warcraft raid analysis for The Dragonfell Tribe (Kazzak-EU), from Warcraft Logs: why a pull wiped, how a night went, how a player did, with the method for reading them.",
   "author": {
     "name": "Wipeboy",
