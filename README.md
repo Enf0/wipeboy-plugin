@@ -1,20 +1,16 @@
-# Wipeboy for Claude, ChatGPT and Codex
+# Wipeboy is now Wipebot
 
-The Wipeboy connector at https://wipeboy.enfo.dev/mcp and its raid-log-analysis skill, as a plugin for The Dragonfell Tribe (Kazzak-EU). With the skill,
-the model reads raid logs the way the method says; a connector alone brings only the tools.
+Wipeboy was The Dragonfell Tribe's own copy of Wipebot. It was retired on 9 November 2026, and its connector moved to
+https://wipebot.enfo.dev/mcp, which serves any guild.
 
-## Add it
+## If you already have this plugin
 
-In Claude (claude.ai or Claude Desktop): **Customize → Plugins → Add → Add marketplace**, enter `Enf0/wipeboy-plugin`, then add
-the Wipeboy plugin and sign in with Warcraft Logs. No GitHub account is needed. For a new version, press
-**Check for updates** in Manage marketplaces.
+Its last version uses the new address. In Claude, press **Check for updates** in Manage marketplaces, then sign in
+with Warcraft Logs once more: the new address is a new sign-in. The old address only redirects, which a connector's
+sign-in can't follow, so a version from before 10 November fails to connect.
 
-In Claude Code: `/plugin marketplace add Enf0/wipeboy-plugin`, then `/plugin install wipeboy@wipeboy`.
+## If you are new here
 
-In Codex, also Codex inside the ChatGPT desktop app: Plugins → **Add** → **Add plugin marketplace**, enter `Enf0/wipeboy-plugin`
-(or `codex plugin marketplace add Enf0/wipeboy-plugin`), install Wipeboy, then sign in to its server under Plugins → **MCPs**. A
-ChatGPT workspace admin can import it for the workspace: Admin Console → Plugins → Add → Import marketplace, with
-`https://github.com/Enf0/wipeboy-plugin` as the source. ChatGPT's chats, on the web, a phone or the desktop app, don't run a
-plugin's server: there add https://wipeboy.enfo.dev/mcp as a custom connector (the tools without the skill).
+Add [Enf0/wipebot-plugin](https://github.com/Enf0/wipebot-plugin) instead. This repository gets no further versions.
 
-Made with [Wipebot](https://github.com/Enf0/wipebot): `wipebot plugin DIR` writes this repository.
+Made with [Wipebot](https://github.com/Enf0/wipebot).
