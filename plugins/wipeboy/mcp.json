@@ -3,7 +3,7 @@
   "mcpServers": {
     "wipeboy": {
       "type": "streamable-http",
-      "url": "https://wipeboy.enfo.dev/mcp"
+      "url": "https://wipebot.enfo.dev/mcp"
     }
   }
 }
